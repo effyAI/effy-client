@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+
+
+/*  --------  */
+.on-hover-scroll{
+  scrollbar-color: #9773FE transparent;
+}
+  .on-hover-scroll::-webkit-scrollbar {
+    @apply h-1.5 w-1.5 opacity-0  absolute bg-transparent;  
+  }
+    
+  .on-hover-scroll:hover::-webkit-scrollbar {
+    @apply h-1.5 w-1.5 opacity-100 ;  
+  }  
+ 
+
+  .on-hover-scroll::-webkit-scrollbar-track {
+    @apply absolute bg-transparent transition-all duration-200 ease-in-out opacity-0;
+  }
+ 
+  .on-hover-scroll:hover::-webkit-scrollbar-track{
+    @apply bg-transparent opacity-0
+  }
+
+  .on-hover-scroll::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-transparent transition-all duration-200 ease-in-out opacity-0;
+  }
+
+  .on-hover-scroll:hover::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-r from-[#7E44F0] to-[#BB4BD9] opacity-100;
+  }
+ 
+
+
+  /* Swiper Slider slide modifiction */
+ 
+@media (max-width:639px){  
+.swiper-slide.auto-slide {
+  @apply w-4/5 #{!important};
+  
+}
+}
+.slick-slider{
+.slick-prev, .slick-next{
+    @apply w-10 h-10 bg-white rounded-full flex justify-center items-center text-black z-10;
+    &:hover{
+        @apply bg-white  
+    }
+    &:before{
+        @apply text-black; font-family: inherit;
+    } 
+}
+.slick-prev{left: -13px} .slick-next{right: -13px}
+ }
