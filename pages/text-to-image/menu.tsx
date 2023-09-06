@@ -1,7 +1,70 @@
 const Menu = [
     {
-      id: 1,
-      image: "/images/result-thumb-2.png",
+      id: "Cinematic-1",
+      image: "/images/cinematic-1.png",
+      name: "Cinematic",
+      category: "Cinematic",
+       
+    },
+    {
+      id: "Cinematic-2",
+      image: "/images/cinematic-2.png",
+      name: "Cinematic",
+      category: "Cinematic",
+       
+    },
+    {
+      id: "Cinematic-3",
+      image: "/images/cinematic-3.png",
+      name: "Cinematic",
+      category: "Cinematic",
+       
+    },
+    {
+      id: "Cinematic-4",
+      image: "/images/cinematic-4.png",
+      name: "Cinematic",
+      category: "Cinematic",
+       
+    },
+    {
+      id: "Cinematic-5",
+      image: "/images/cinematic-5.png",
+      name: "Cinematic",
+      category: "Cinematic",
+       
+    },
+    {
+      id: "Cinematic-6",
+      image: "/images/cinematic-6.png",
+      name: "Cinematic",
+      category: "Cinematic",
+       
+    },
+    {
+      id: "Cinematic-7",
+      image: "/images/cinematic-7.png",
+      name: "Cinematic",
+      category: "Cinematic",
+       
+    },
+    {
+      id: "Cinematic-8",
+      image: "/images/cinematic-8.png",
+      name: "Cinematic",
+      category: "Cinematic",
+       
+    },
+    {
+      id: "Cinematic-9",
+      image: "/images/cinematic-9.png",
+      name: "Cinematic",
+      category: "Cinematic",
+       
+    },
+    {
+      id: "Cinematic-10",
+      image: "/images/cinematic-10.png",
       name: "Cinematic",
       category: "Cinematic",
        
