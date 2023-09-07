@@ -70,10 +70,52 @@ const Menu = [
        
     },
     {
-      id: 2,
-      image: "/images/result-thumb-3.png",
-      name: "Cities",
-      category: "Cities",
+      id: "Portrait",
+      image: "/images/Portrait-1.jpg",
+      name: "Portrait",
+      category: "Portrait",
+      
+    },
+    {
+      id: "Portrait",
+      image: "/images/Portrait-2.jpg",
+      name: "Portrait",
+      category: "Portrait",
+      
+    },
+    {
+      id: "Portrait",
+      image: "/images/Portrait-3.jpg",
+      name: "Portrait",
+      category: "Portrait",
+      
+    },
+    {
+      id: "Portrait",
+      image: "/images/Portrait-4.png",
+      name: "Portrait",
+      category: "Portrait",
+      
+    },
+    {
+      id: "Portrait",
+      image: "/images/Portrait-5.png",
+      name: "Portrait",
+      category: "Portrait",
+      
+    },
+    {
+      id: "Portrait",
+      image: "/images/Portrait-6.jpg",
+      name: "Portrait",
+      category: "Portrait",
+      
+    },
+    {
+      id: "Portrait",
+      image: "/images/Portrait-7.jpg",
+      name: "Portrait",
+      category: "Portrait",
       
     },
     {

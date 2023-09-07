@@ -35,9 +35,9 @@ export default function TextPrompt(props: any) {
             
               <button
                 className={"rounded-full border py-2 px-5 text-center flex-1 whitespace-nowrap text-white/70 ease-in-out duration-300 text-sm xl:text-base " + (active ? "border-white/10 bg-purple/10" : "bg-white/10 border-transparent hover:bg-white/5")}                      
-                onClick={() => filterItem("Cities")}
+                onClick={() => filterItem("Portrait")}
               >
-                Cities
+                Portrait
               </button>
           
             <button

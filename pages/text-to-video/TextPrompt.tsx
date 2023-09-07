@@ -82,21 +82,25 @@ export default function TextPrompt(props: any) {
           
       </div>
         
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-3">
             {items.map((elem) => {
               const { id, name, image,  } = elem;
   
               return (
                 <div className="overflow-hidden flex" id={id}>
-                  <Image
+                  {/* <Image
                     className="object-cover w-full"
                     src={image}
                     width={215}
                     height={249}
                     loading="eager"
                     alt={name}
-                  />
+                  /> */}
                     
+                    <video width={'100%'}
+                    height={350} controls>
+                      <source src={image} type="video/mp4" /> 
+                    </video>
                   
                 </div>
               );
