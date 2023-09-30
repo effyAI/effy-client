@@ -1,18 +1,74 @@
 import React, { useRef, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import Link from "next/link"; 
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-
-// import './styles.css';
-
-// import required modules
-import { Navigation } from "swiper/modules";
+function SamplePrevArrow(props:any) {
+  const { className, style, onClick } = props;
+  return (
+    <button className="hidden sm:block absolute top-1/2 -translate-y-1/2 bg-linear-1 rounded-full shrink-0 p-px -left-12 z-10" onClick={onClick}>
+    <div className={"rounded-full bg-[#1A1821] flex justify-center items-center flex-1 text-white w-10 h-10"}
+       
+      onClick={onClick}
+    ><IconArrowLeft className="text-white/80" size={18} /></div>
+</button>
+  );
+}
+function SampleNextArrow(props:any) {
+  const { className, style, onClick } = props;
+  return (
+    <button className="hidden sm:block absolute top-1/2 -translate-y-1/2 bg-linear-1 rounded-full shrink-0 p-px -right-12 z-10" onClick={onClick}>
+    <div className={"rounded-full bg-[#1A1821] flex justify-center items-center flex-1 text-white w-10 h-10"}>
+    <IconArrowRight className="text-white/80" size={18} />
+      </div>
+    </button>
+  );
+}
+const carousel = {
+  infinite: true,
+  autoplay: true,
+  pauseOnHover: true, 
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrows: true,
+  nextArrow: <SampleNextArrow />,
+  prevArrow: <SamplePrevArrow />,
+  responsive: [
+    {
+      breakpoint: 1279,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplaySpeed: 2000,
+        speed:1000,
+        
+      },
+    },
+    {
+      breakpoint: 1023,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplaySpeed: 3000,
+        speed: 300,
+      
+      },
+    },
+    {
+      breakpoint: 639,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplaySpeed: 4000,
+        speed: 500,
+       
+      },
+    },
+  ],
+};
+ 
 
 const slider = [
   {
@@ -73,40 +129,16 @@ const slider = [
 
 export default function Carousel(props: any) {
   const swiperRef = useRef();
+  
   return (
     <>
       <div className="sm:px-14 relative">
-        <Swiper
-          className="mySwiper"
-          slidesPerView={'auto'}
-          spaceBetween={10}
-         freeMode={true}
-          centeredSlides={false}
-          navigation={false}
-          modules={[Navigation]}
-          loop={true}
-          breakpoints={{
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 10,
-            },
-            1024: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            1280: {
-              slidesPerView: 3,
-              spaceBetween: 30,
-            },
-          }}
-          onBeforeInit={(swiper) => {
-            swiperRef.current = swiper;
-          }}
-        >
+      <Slider {...carousel}>
+        
           {slider.map((item, index) => {
             return (
-              <SwiperSlide key={index} className="auto-slide">
-                <div className="p-1">
+              <div key={index} className="auto-slide">
+                <div className="p-2">
                   <div className="bg-linear-3 rounded-xl border border-white/10 p-5 lg:p-10 flex flex-col gap-5">
                     {/* Thumbnail */}
                     <div className="overflow-hidden rounded-lg">
@@ -137,11 +169,11 @@ export default function Carousel(props: any) {
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
+              </div>
             );
           })}
-        </Swiper>
-        <button
+      </Slider>
+        {/* <button
           onClick={() => swiperRef.current?.slidePrev()}
           className="hidden sm:block absolute top-1/2 -translate-y-1/2 bg-linear-1 rounded-full shrink-0 p-px left-0 z-10"
         >
@@ -156,7 +188,7 @@ export default function Carousel(props: any) {
           <div className="rounded-full bg-[#1A1821] flex justify-center items-center flex-1 text-white w-10 h-10">
             <IconArrowRight className="text-white/80" size={18} />
           </div>
-        </button>
+        </button> */}
       </div>
     </>
   );

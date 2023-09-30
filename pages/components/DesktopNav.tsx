@@ -124,13 +124,14 @@ export default function DesktopNav(props: any) {
                   </span>
                   <MdKeyboardArrowDown className="text-white/80" size={18} />
                 </button>
-                <div className="z-40 lg:pt-0 pt-2 mt-[10px] lg:bg-white rounded-2xl bg-transparent capitalize text-gray-700 lg:absolute top-20 lg:drop-shadow-xl lg:border  relative  -left-72 transform hidden group-hover:block   transition duration-200 ease-in-out origin-top w-[50rem]">
-                  <div className="absolute -top-2 2xl:inset-x-[21rem] xl:inset-x-[20rem] bg-white rotate-45   w-4 h-4"></div>
+                <div className="z-40 lg:pt-0 pt-2 mt-[10px] bg-dark bg-linear-3 rounded-2xl capitalize text-white lg:absolute top-20 shadow-2xl 
+                lg:border border-white/10 relative -left-72 transform hidden group-hover:block  transition duration-200 ease-in-out origin-top w-[50rem]">
+                  <div className="absolute -top-2 2xl:inset-x-[21rem] xl:inset-x-[20rem] bg-[#27252D] rotate-45  w-4 h-4"></div>
                   <div className="p-8 mx-auto text-sm">
                     <div className="grid grid-cols-2 gap-6">
                       <Link
                         href="/effy-video-dark"
-                        className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50 p-4 rounded-md ease-in-out duration-300"
+                        className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300"
                       >
                         <Image
                           src="/images/video-call.png"
@@ -147,7 +148,7 @@ export default function DesktopNav(props: any) {
                       </Link>
                       <Link
                         href="/effy-image"
-                        className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50 p-4 rounded-md ease-in-out duration-300"
+                        className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300"
                       >
                         <Image
                           src="/images/picture.png"
@@ -162,7 +163,7 @@ export default function DesktopNav(props: any) {
                           </p>
                         </div>
                       </Link>
-                      <div className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50 p-4 rounded-md ease-in-out duration-300">
+                      <div className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300">
                         <Image
                           src="/images/voice-scanner.png"
                           alt={""}
@@ -176,7 +177,7 @@ export default function DesktopNav(props: any) {
                           </p>
                         </div>
                       </div>
-                      <div className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50 p-4 rounded-md ease-in-out duration-300">
+                      <div className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300">
                         <Image
                           src="/images/lawyer.png"
                           alt={""}
@@ -190,7 +191,7 @@ export default function DesktopNav(props: any) {
                           </p>
                         </div>
                       </div>
-                      <Link href="/effy-voice-dark" className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50  p-4 rounded-md ease-in-out duration-300">
+                      <Link href="/effy-voice-dark" className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300">
                         <Image
                           src="/images/audio-message.png"
                           alt={""}
@@ -204,7 +205,7 @@ export default function DesktopNav(props: any) {
                           </p>
                         </div>
                       </Link>
-                      <div className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50 p-4 rounded-md ease-in-out duration-300">
+                      <div className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300">
                         <Image
                           src="/images/test.png"
                           alt={""}
