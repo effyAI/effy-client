@@ -34,6 +34,7 @@ module.exports = {
         'linear-4':'linear-gradient(180deg, rgba(14, 12, 21, 0.70) 0%, rgba(0, 0, 0, 0.70) 55.21%, rgba(10, 6, 15, 0.70) 100%)',
         'linear-5':'linear-gradient(180deg, rgba(109, 58, 255, 0.10) 0%, rgba(219, 92, 152, 0.10) 100%)',
         'linear-6':'linear-gradient(180deg, #6D3AFF 0%, #DB5C98 100%)',
+        'linear-7':'linear-gradient(180deg, rgba(21, 17, 35, 0.90) 0%, rgba(21, 17, 36, 0.90) 100%)',
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-radial-2': 'radial-gradient(56.52% 56.52% at 61.68% 45.27%, #BDA6FF 0%, #6D3AFF 100%)',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

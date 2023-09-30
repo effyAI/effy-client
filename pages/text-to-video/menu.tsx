@@ -8,7 +8,7 @@ const Menu = [
     },
     {
       id: 2,
-      image: "/images/video-1.mp4",
+      image: "/images/video-2.mp4",
       name: "Cities",
       category: "Cities",
       

@@ -1,6 +1,7 @@
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+
 import Image from "next/image";
+import react, { useState, useEffect } from "react";
 import { MdKeyboardArrowDown, MdMenuOpen, MdMenu } from "react-icons/md";
 import { FiHome } from "react-icons/fi";
 import { HiOutlineUserGroup } from "react-icons/hi";
@@ -128,7 +129,7 @@ export default function DesktopNav(props: any) {
                   <div className="p-8 mx-auto text-sm">
                     <div className="grid grid-cols-2 gap-6">
                       <Link
-                        href="/effy-video"
+                        href="/effy-video-dark"
                         className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50 p-4 rounded-md ease-in-out duration-300"
                       >
                         <Image
@@ -189,7 +190,7 @@ export default function DesktopNav(props: any) {
                           </p>
                         </div>
                       </div>
-                      <div className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50  p-4 rounded-md ease-in-out duration-300">
+                      <Link href="/effy-voice-dark" className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50  p-4 rounded-md ease-in-out duration-300">
                         <Image
                           src="/images/audio-message.png"
                           alt={""}
@@ -202,7 +203,7 @@ export default function DesktopNav(props: any) {
                             In publishing and graphic design, Lorem ipsum is
                           </p>
                         </div>
-                      </div>
+                      </Link>
                       <div className="flex items-start space-x-4 cursor-pointer hover:bg-slate-50 p-4 rounded-md ease-in-out duration-300">
                         <Image
                           src="/images/test.png"
