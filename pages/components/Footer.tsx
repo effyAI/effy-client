@@ -12,17 +12,17 @@ export default function Footer() {
   const Services = [
     {
       num: "1",
-      url: "/altcoin-development-services",
+      url: "/effy-video-dark",
       title: "EffyAi video",
     },
     {
       num: "2",
-      url: "/cryptocurrency-mlm-software-development",
+      url: "/text-to-image",
       title: "EffyAi Image",
     },
     {
       num: "3",
-      url: "/crypto-wallet-development",
+      url: "/effy-voice-dark",
       title: "EffyAi voice",
     },
     {

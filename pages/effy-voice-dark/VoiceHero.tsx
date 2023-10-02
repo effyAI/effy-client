@@ -45,7 +45,7 @@ export default function VoiceHero(props: any) {
                       />
 
                       <Image
-                        className="object-cover w-full rounded-xl"
+                        className="object-cover w-full rounded-xl md:hidden"
                         src="/images/effy-voice-hero-mobile.svg"
                         width={612}
                         height={610}
