@@ -59,14 +59,10 @@ const tags = [
 ];
 
 export default function ImagePrompt(props: any) {
-  const [selectedTag, setSelectedTag] = useState(false);
-  const [zoomdd, setZoomdd] = useState(false);
-  const [selectSize, setSelectSize] = useState(false);
-
-
-  const [selectedFile, setSelectedFile] = useState();
-  const [preview, setPreview] = useState();
-
+  const [selectedTag, setSelectedTag] = useState<boolean>(false);
+ 
+  const [selectedFile, setSelectedFile] = useState<File | undefined>(undefined);
+  const [preview, setPreview] = useState<string | undefined>(undefined);
   // create a preview as a side effect, whenever selected file is changed
   useEffect(() => {
     if (!selectedFile) {
@@ -81,16 +77,15 @@ export default function ImagePrompt(props: any) {
     return () => URL.revokeObjectURL(objectUrl);
   }, [selectedFile]);
 
-  const onSelectFile = (e) => {
+  const onSelectFile = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!e.target.files || e.target.files.length === 0) {
       setSelectedFile(undefined);
       return;
     }
-
+  
     // I've kept this example simple by using the first image instead of multiple
     setSelectedFile(e.target.files[0]);
   };
-
 
 
 

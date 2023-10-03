@@ -59,14 +59,10 @@ const tags = [
 ];
 
 export default function ImagePrompt(props: any) {
-  const [selectedTag, setSelectedTag] = useState(false);
-  const [zoomdd, setZoomdd] = useState(false);
-  const [selectSize, setSelectSize] = useState(false);
-
-
-  const [selectedFile, setSelectedFile] = useState();
-  const [preview, setPreview] = useState();
-
+  const [selectedTag, setSelectedTag] = useState<boolean>(false);
+ 
+  const [selectedFile, setSelectedFile] = useState<File | undefined>(undefined);
+  const [preview, setPreview] = useState<string | undefined>(undefined);
   // create a preview as a side effect, whenever selected file is changed
   useEffect(() => {
     if (!selectedFile) {
@@ -81,56 +77,19 @@ export default function ImagePrompt(props: any) {
     return () => URL.revokeObjectURL(objectUrl);
   }, [selectedFile]);
 
-  const onSelectFile = (e:any) => {
+  const onSelectFile = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!e.target.files || e.target.files.length === 0) {
       setSelectedFile(undefined);
       return;
     }
-
+  
     // I've kept this example simple by using the first image instead of multiple
     setSelectedFile(e.target.files[0]);
   };
 
-
-
-
-
   return (
     <>
-      <div className="space-y-5 sm:space-y-10 sm:pt-5">
-        {/* <label
-          className="border border-dashed border-white/10 p-10 rounded-xl bg-[#202124]/20 space-y-8 cursor-pointer block"
-          for="fileupload"
-          >
-          
-          {selectedFile && (
-            <span className="flex justify-center items-center max-w-full w-80 mx-auto rounded overflow-hidden">
-              <Image
-                className="object-cover w-full"
-                src={preview}
-                width={582}
-                height={516}
-                loading="eager"
-                alt={""}
-              />
-            </span>
-          )}
-          <span className="space-y-2 block">
-            <span className="text-center block text-xl text-[#B398FF] flex justify-center gap-1 items-center cursor-pointer">
-              <input
-                type="file"
-                className="hidden"
-                id="fileupload"
-                onChange={onSelectFile}
-              />
-              <TbUpload size={20} />
-              <p>upload Image</p>
-            </span>
-            <span className="text-white/70 text-center block">
-              Upload png, jpg, svg , webp or drag an image here
-            </span>
-          </span>
-        </label> */}
+      <div className="space-y-5 sm:space-y-10 sm:pt-5"> 
 
       {/* <VoiceToText /> */}
 
