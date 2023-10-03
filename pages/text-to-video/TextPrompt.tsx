@@ -5,7 +5,7 @@ import Menu from "./menu";
 export default function TextPrompt(props: any) {
   const [items, setItems] = useState(Menu);
   const [active, setActive] = useState(false);
-  const filterItem = (categItem) => {
+  const filterItem = (categItem:any) => {
     const updateItems = Menu.filter((curElem) => {
       return curElem.category === categItem;
     });
@@ -87,7 +87,7 @@ export default function TextPrompt(props: any) {
               const { id, name, image,  } = elem;
   
               return (
-                <div className="overflow-hidden flex" id={id}>
+                <div className="overflow-hidden flex" key={id}>
                   {/* <Image
                     className="object-cover w-full"
                     src={image}

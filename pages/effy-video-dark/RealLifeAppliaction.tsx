@@ -215,7 +215,7 @@ export default function RealLifeAppliaction(props: any) {
                         <div className="relative space-y-10 border border-white/10 rounded-b-md p-3 md:p-0 md:border-none md:rounded-none">
                           {lipSyncingTab.map((item, index) => {
                             return (
-                              <div className="flex gap-5">
+                              <div key={item.counter} className="flex gap-5">
                                <div className="md:text-xl text-white">                                  
                                     {item.counter}.                                  
                                 </div>
@@ -267,7 +267,7 @@ export default function RealLifeAppliaction(props: any) {
                         <div className="relative space-y-10 border border-white/10 rounded-b-md p-3 md:p-0 md:border-none md:rounded-none">
                           {TextSpeechTab.map((item, index) => {
                             return (
-                              <div className="flex gap-5">
+                              <div key={item.counter} className="flex gap-5">
                                 <div className="md:text-xl text-white">                                  
                                     {item.counter}.                                  
                                 </div>
@@ -319,7 +319,7 @@ export default function RealLifeAppliaction(props: any) {
                         <div className="relative space-y-10 border border-white/10 rounded-b-md p-3 md:p-0 md:border-none md:rounded-none">
                           {videoConversionTab.map((item, index) => {
                             return (
-                              <div className="flex gap-5">
+                              <div key={item.counter} className="flex gap-5">
                                 <div className="md:text-xl text-white">                                  
                                     {item.counter}.                                  
                                 </div>

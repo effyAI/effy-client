@@ -81,7 +81,7 @@ export default function ImagePrompt(props: any) {
     return () => URL.revokeObjectURL(objectUrl);
   }, [selectedFile]);
 
-  const onSelectFile = (e) => {
+  const onSelectFile = (e:any) => {
     if (!e.target.files || e.target.files.length === 0) {
       setSelectedFile(undefined);
       return;

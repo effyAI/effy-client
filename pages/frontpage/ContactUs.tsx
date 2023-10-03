@@ -93,7 +93,7 @@ export default function ContactUs(props: any) {
 
                     <div className="flex gap-3 md:items-center">
                         <input type="checkbox" id="tnc" className="shrink-0 w-5 h-5" />
-                        <label for="tnc" className="text-white/70 md:text-lg">I have read and accept the <span className="text-[#0558E2]">Privacy</span> & <span className="text-[#0558E2]">Policy.</span></label>
+                        <label htmlFor="tnc" className="text-white/70 md:text-lg">I have read and accept the <span className="text-[#0558E2]">Privacy</span> & <span className="text-[#0558E2]">Policy.</span></label>
                     </div>
                     <div className="flex justify-center md:justify-start">
                     <button type="submit" className="block w-full md:w-auto text-sm font-semibold active text-white bg-linear-1 rounded-lg p-px text-center hover:text-white lg:mt-0 font-opensans cursor-pointer transition duration-300 relative uppercase group"><span className="relative block bg-[#0D0C17] group-hover:bg-[#2A2932] rounded-lg px-6 lg:py-3 py-2 ease-in-out duration-300">Submit from</span></button>

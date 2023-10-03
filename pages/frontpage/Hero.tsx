@@ -26,7 +26,7 @@ export default function Hero(props: any) {
                   Clone your Voice
                 </h1>
                 <p className="w-full mx-auto text-base  text-white/70 lg:text-lg xl:text-3xl xl:leading-snug text-center md:text-left">
-                  if you can't speak in All language Your Avatar will
+                 {" if you can't speak in All language Your Avatar will"}
                 </p>
                 <p className="w-full mx-auto text-base text-white lg:text-lg xl:text-3xl font-medium lg:pt-2 text-center md:text-left">
                   Speak 120 language in your voice
