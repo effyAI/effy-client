@@ -26,7 +26,7 @@ export default function ContactUs(props: any) {
                 <h1 className="text-white xl:text-4xl 2xl:text-6xl text-3xl font-semibold xl:leading-[4rem] leading-[3rem] hidden md:block  ">
                 Contact Us
                 </h1>
-                <p className="w-full mx-auto text-base text-white/70 lg:text-lg xl:text-2xl 2xl:text-3xl xl:leading-snug hidden md:block">
+                <p className="w-full mx-auto text-base font-light text-white/70 lg:text-lg xl:text-xl  xl:leading-snug hidden md:block">
                 Say something to start a live chat!
                 </p>
                 <div className="space-y-4">
@@ -35,7 +35,7 @@ export default function ContactUs(props: any) {
                             <TbPhoneCall size={30} strokeWidth={1.5} />
                             
                         </div>
-                        <p className="w-full mx-auto text-base text-white/70 lg:text-lg md:text-xl 2xl:text-2xl font-medium  ">
+                        <p className="w-full mx-auto text-base text-white/70 lg:text-lg md:text-xl  font-light    ">
                         +1-415- 735-4966
                         </p>
                     </div>
@@ -43,7 +43,7 @@ export default function ContactUs(props: any) {
                         <div className="w-10 shrink-0 text-white">
                             <TbMail size={30} strokeWidth={1.5} /> 
                         </div>
-                        <p className="w-full mx-auto text-base text-white/70 lg:text-lg md:text-xl 2xl:text-2xl font-medium  ">
+                        <p className="w-full mx-auto text-base text-white/70 lg:text-lg md:text-xl  font-light    ">
                         enquire@effybiz.com
                         </p>
                     </div>
@@ -51,7 +51,7 @@ export default function ContactUs(props: any) {
                         <div className="w-10 shrink-0 text-white">
                             <TbWorld size={30} strokeWidth={1.5} />                          
                         </div>
-                        <p className="w-full mx-auto text-base text-white/70 lg:text-lg md:text-xl 2xl:text-2xl font-medium  ">
+                        <p className="w-full mx-auto text-base text-white/70 lg:text-lg md:text-xl  font-light    ">
                         www.effycontent.com
                         </p>
                     </div>
@@ -59,7 +59,7 @@ export default function ContactUs(props: any) {
                         <div className="w-10 shrink-0 text-white"> 
                             <TbMapPin strokeWidth={1.5} size={30} />
                         </div>
-                        <p className="w-full mx-auto text-base text-white/70 lg:text-lg md:text-xl 2xl:text-2xl font-medium  ">
+                        <p className="w-full mx-auto text-base text-white/70 lg:text-lg md:text-xl  font-light    ">
                         340 S Lemon Ave, Walnut, CA 91789, USA
                         </p>
                     </div>

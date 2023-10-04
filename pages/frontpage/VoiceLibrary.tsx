@@ -24,10 +24,10 @@ export default function VoiceLibrary(props: any) {
                 </div>
                 <div className="relative md:pl-10">
                   <div className="space-y-2 md:space-y-5 xl:space-y-7">
-                    <h1 className="text-white font-opensans xl:text-4xl 2xl:text-5xl md:text-3xl text-2xl font-semibold xl:leading-[4.5rem] 2xl:leading-[4.5rem] md:leading-[3rem]  text-center md:text-left ">
+                    <h1 className="text-white font-opensans xl:text-4xl 2xl:text-5xl md:text-3xl text-2xl font-semibold 2xl:leading-[4rem] text-center md:text-left ">
                       Try Voice library It Look Sound More Real
                     </h1>
-                    <p className="w-full mx-auto text-base  text-white/70 lg:text-lg xl:text-3xl xl:leading-snug  text-center md:text-left">
+                    <p className="w-full mx-auto text-base  text-white/70 lg:text-lg  xl:leading-snug font-light text-center md:text-left ">
                       Use your Voice or chose your Voice. Our Ai based voice
                       library take your business to next level
                     </p>

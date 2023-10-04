@@ -22,13 +22,13 @@ export default function Hero(props: any) {
           <div className="flex flex-col md:grid md:grid-cols-2 gap-5 sm:gap-10 items-center">
             <div className="w-full md:max-w-lg">
               <div className="space-y-2 sm:space-y-4 xl:space-y-7">
-                <h1 className="text-white xl:text-5xl 2xl:text-6xl text-4xl font-semibold xl:leading-[4rem] leading-[3rem] text-center md:text-left">
+              <h1 className="text-white xl:text-5xl  md:text-4xl text-3xl font-bold xl:leading-[4rem] leading-[3rem] text-center md:text-left">
                   Clone your Voice
                 </h1>
-                <p className="w-full mx-auto text-base  text-white/70 lg:text-lg xl:text-3xl xl:leading-snug text-center md:text-left">
+                <p className="w-full mx-auto text-base  text-white/70 lg:text-lg xl:text-xl xl:leading-snug text-center md:text-left">
                  {" if you can't speak in All language Your Avatar will"}
                 </p>
-                <p className="w-full mx-auto text-base text-white lg:text-lg xl:text-3xl font-medium lg:pt-2 text-center md:text-left">
+                <p className="w-full mx-auto text-base text-white lg:text-2xl  font-semibold lg:pt-2 text-center md:text-left">
                   Speak 120 language in your voice
                 </p>
               </div>

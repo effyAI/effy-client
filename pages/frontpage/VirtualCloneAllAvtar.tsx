@@ -38,10 +38,10 @@ export default function VirtualCloneAllAvtar(props: any) {
                   className="bg-linear-3 rounded-2xl border border-white/10 p-5 lg:p-10 xl:p-12 xl:pb-16 space-y-5 md:space-y-10"
                     >
                   <div className="space-y-3 max-w-sm mx-auto ">
-                    <h3 className="text-white xl:text-4xl md:text-3xl text-2xl xl:leading-snug font-bold text-center">
+                  <h3 className="text-white xl:text-4xl md:text-3xl text-2xl xl:leading-snug font-bold text-center">
                       {item.title}
                     </h3>
-                    <p className="xl:text-xl md:text-lg text-white/70 font-light sm:leading-[30px] text-center">
+                    <p className="xl:text-xl md:text-lg text-white/70 font-light sm:leading-[30px] text-center ">
                       {item.descrip}
                     </p>
                   </div>

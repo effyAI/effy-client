@@ -10,10 +10,10 @@ export default function VideoHero(props: any) {
       <div className="flex flex-col-reverse md:grid md:grid-cols-12 gap-10 w-full items-center ">
         <div className="col-span-6 w-full space-y-7 sm:space-y-10 lg:space-y-14 2xl:space-y-16">
           <div className="space-y-3 sm:space-y-5 text-center md:text-left  ">
-            <h1 className="text-3xl sm:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-white xl:tracking-wide xl:leading-snug 2xl:leading-snug">
+            <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold text-white tracking-wider xl:leading-snug 2xl:leading-tight">
               Some of our cool videos feature who stand apart You !
             </h1>
-            <p className="text-lg xl:text-2xl leading-snug text-white/70">
+            <p className="md:text-xl text-base  text-white/70">
               In publishing and graphic design, Lorem ipsum is a placeholder
               text commonly 
             </p>
