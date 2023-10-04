@@ -83,8 +83,8 @@ export default function Webdevelopment(props: any) {
       <div className="overflow-hidden">
       <Header />
         {/* hero section */}
-        <div className="bg-center bg-no-repeat bg-contain bg-[#0D1021]"
-          style={{ backgroundImage: `url("/images/effy-voice-hero.svg")` }} >
+        <div className="bg-center bg-no-repeat bg-contain bg-[#0D1021] hero-bg">
+           
           <div className="bg-linear-2 backdrop-blur-xl bg-left-top">           
 
              <div className="pb-10 pt-16 md:py-20 2xl:py-32 border-b border-white/10 xl:border-0 ">

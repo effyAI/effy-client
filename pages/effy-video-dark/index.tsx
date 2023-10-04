@@ -82,12 +82,12 @@ export default function Webdevelopment(props: any) {
       </Head>
 
       <div className="overflow-hidden">
-      <Header />
+      
         {/* hero section */}
-        <div className="bg-center bg-no-repeat bg-contain bg-[#0D1021]"
-          style={{ backgroundImage: `url("/images/effy-video-hero.png")` }} >
+        <div className="bg-center bg-no-repeat bg-contain bg-[#0D1021] hero-bg"
+          style={{backgroundImage: 'url(/images/effy-video-hero.png)'}} >
           <div className="bg-linear-2 backdrop-blur-xl bg-left-top">           
-
+            <Header />
              <div className="pb-10 pt-16 md:py-20 2xl:py-32 border-b border-white/10 xl:border-0 ">
               <div className="absolute top-24 -left-14">
                 <Image
