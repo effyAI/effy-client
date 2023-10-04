@@ -27,34 +27,34 @@ export default function Footer() {
     },
     {
       num: "4",
-      url: "/cricket-live-line-api",
+      url: "",
       title: "EffyAi Avatar",
     },
     {
       num: "5",
-      url: "/web-development",
+      url: "",
       title: "EffyAi Dubbing",
     },
   ];
   const About = [
     {
       num: "1",
-      url: "/career",
+      url: "",
       title: "Home",
     },
     {
       num: "2",
-      url: "/contact-us",
+      url: "",
       title: "Feature",
     },
     {
       num: "3",
-      url: "/about-us",
+      url: "",
       title: "About us",
     },
     {
       num: "4",
-      url: "/client-testimonials",
+      url: "",
       title: "Contact us",
     },
     {
@@ -66,12 +66,12 @@ export default function Footer() {
   const Usefull = [
     {
       num: "1",
-      url: "/disclaimer",
+      url: "",
       title: "Disclaimer",
     },
     {
       num: "2",
-      url: "/contact-us",
+      url: "",
       title: "Support",
     },
     {
