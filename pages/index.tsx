@@ -132,18 +132,18 @@ export default function Home(props: any) {
         </title>
         <meta
           name="description"
-          content="Need a professional Crypto and app development company? Our expert developers offer top-notch Crypto and mobile app development services to help you meet your business goals."
+          content="Remember that selecting the right development partner is a critical decision, so take your time and make an informed choice. A well-chosen development team can greatly contribute to the success of your crypto and app project.."
         />
         <link rel="canonical" href="https://effybiz.com/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content=" Crypto & App Development Service Provider | Best App Development Company    "
+          content=" This meta description effectively communicates your company's expertise in both crypto and app development while emphasizing trustworthiness, which can be a significant factor for potential clients when choosing a service provider.    "
         />
         <meta
           property="og:description"
-          content="Need a professional Crypto and app development company? Our expert developers offer top-notch Crypto and mobile app development services to help you meet your business goals."
+          content="Your meta description effectively conveys your company's services and value proposition. It's clear and to the point. However, if you'd like to make it even more concise and SEO-friendly, you could consider the following revision:"
         />
         <meta property="og:url" content="https://effybiz.com/" />
         <meta property="og:site_name" content="effybiz" />

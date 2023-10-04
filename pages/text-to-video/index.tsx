@@ -48,14 +48,14 @@ export default function Webdevelopment(props: any) {
         </title>
         <meta
           name="description"
-          content="Some of our cool videos feature who stand apart You !"
+          content="It appears that the phrase you provided is a bit unclear and may not effectively convey the message you want to communicate. If you're looking to promote your company's cool videos and encourage viewers to stand apart or engage with your content, you might consider a revised meta description like:"
         />
         <link rel="canonical" href="https://effybiz.com/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content="Text To Video | Some of our cool videos feature who stand apart You !"
+          content="This meta description emphasizes the conversion of text to videos and the potential for businesses to stand out and engage their audience effectively."
         />
         <meta
           property="og:description"

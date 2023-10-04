@@ -31,14 +31,14 @@ export default function Webdevelopment(props: any) {
         </title>
         <meta
           name="description"
-          content="Some of our cool videos feature who stand apart You !"
+          content="This revised meta description indicates that your videos feature exceptional people and encourages viewers to explore them, including those who might identify with being exceptional or unique themselves."
         />
         <link rel="canonical" href="https://effybiz.com/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content="Text to Image | Some of our cool videos feature who stand apart You !"
+          content="This meta description emphasizes the transformation of text into visually engaging content and highlights the idea of standing out, which can be appealing to potential users of your service."
         />
         <meta
           property="og:description"
