@@ -147,7 +147,7 @@ export default function DesktopNav(props: any) {
                         </div>
                       </Link>
                       <Link
-                        href="/text-to-image"
+                        href="/effy-image-dark"
                         className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300"
                       >
                         <Image

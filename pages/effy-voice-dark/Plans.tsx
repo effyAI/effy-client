@@ -4,7 +4,7 @@ import Link from "next/link";
 import {
     IconCheck
 } from "@tabler/icons-react";
-// Import Swiper React components
+ 
 
  
 

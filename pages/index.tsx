@@ -166,6 +166,10 @@ export default function Home(props: any) {
         <Header />
         <div className="bg-dark space-y-5 md:space-y-10 xl:space-y-20 ">
           <Hero />
+
+
+
+          
         {/* Try Voice library It Look Sound More Real */}
         <VoiceLibrary />
 

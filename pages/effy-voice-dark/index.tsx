@@ -3,7 +3,7 @@ import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import VoiceHero from "./VoiceHero";
+import VoiceHero from "./VideoHero";
 import Features from "./Features";
 import Carousel from "./Carousel";
 import BuildTrustBlogs from "./BuildTrustBlogs";
