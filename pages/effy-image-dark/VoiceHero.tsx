@@ -9,8 +9,8 @@ export default function VoiceHero(props: any) {
    
   return (
     <>
- <div className="flex flex-col w-full items-center pt-10 space-y-20">
-        <div className="w-full space-y-10 lg:space-y-10 max-w-6xl mx-auto">
+ <div className="flex flex-col w-full items-center pt-10 space-y-10 lg:space-y-20">
+        <div className="w-full space-y-5 lg:space-y-10 max-w-6xl mx-auto">
           <div className="space-y-5 text-center ">
             <h1 className="text-4xl xl:text-5xl   font-bold text-white tracking-wider ">
               EffyAI powered text to voice generator
@@ -38,8 +38,8 @@ export default function VoiceHero(props: any) {
           <div className="overflow-hidden relative">
             <Image
               className="object-cover w-full rounded-xl"
-              src="/images/hero-thumb.png"
-              width={612}
+              src="/images/thumb-hero2.png"
+              width={1920}
               height={610}
               loading="eager"
               alt="effyvideo-hero"
