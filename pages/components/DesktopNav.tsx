@@ -142,7 +142,7 @@ export default function DesktopNav(props: any) {
                         <div className="space-y-1 ">
                           <h2 className="text-xl font-bold">EffyAI-Video</h2>
                           <p className="font-normal">
-                            In publishing and graphic design, Lorem ipsum is
+                          Elevate Your Visual Storytelling
                           </p>
                         </div>
                       </Link>
@@ -159,7 +159,7 @@ export default function DesktopNav(props: any) {
                         <div className="space-y-1 ">
                           <h2 className="text-xl font-bold">EffyAI-Image</h2>
                           <p className="font-normal">
-                            In publishing and graphic design, Lorem ipsum is
+                          Unleash Creative Design Possibilities
                           </p>
                         </div>
                       </Link>
@@ -173,7 +173,7 @@ export default function DesktopNav(props: any) {
                         <div className="space-y-1 ">
                           <h2 className="text-xl font-bold">EffyAI-Dubbing</h2>
                           <p className="font-normal">
-                            In publishing and graphic design, Lorem ipsum is
+                          Enhance Multilingual Content Delivery
                           </p>
                         </div>
                       </div>
@@ -187,7 +187,7 @@ export default function DesktopNav(props: any) {
                         <div className="space-y-1 ">
                           <h2 className="text-xl font-bold">EffyAI-Avatar</h2>
                           <p className="font-normal">
-                            In publishing and graphic design, Lorem ipsum is
+                          Craft Your Digital Persona Effortlessly
                           </p>
                         </div>
                       </div>
@@ -201,7 +201,7 @@ export default function DesktopNav(props: any) {
                         <div className="space-y-1 ">
                           <h2 className="text-xl font-bold">EffyAI-Voice</h2>
                           <p className="font-normal">
-                            In publishing and graphic design, Lorem ipsum is
+                          Give Voice to Your Content
                           </p>
                         </div>
                       </Link>
@@ -215,7 +215,7 @@ export default function DesktopNav(props: any) {
                         <div className="space-y-1 ">
                           <h2 className="text-xl font-bold">EffyAI-Doc</h2>
                           <p className="font-normal">
-                            In publishing and graphic design, Lorem ipsum is
+                          Break Language Barriers Seamlessly
                           </p>
                         </div>
                       </div>
