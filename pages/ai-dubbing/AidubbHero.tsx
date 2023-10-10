@@ -1,22 +1,23 @@
 import Image from "next/image";
 import { IconPlayerPlay } from "@tabler/icons-react";
+import 'flag-icon-css/sass/flag-icons.scss';
 const languageButton = [
   {
     lang: "English",
-    flag: "GB",
+    flag: "gb",
   },
 
   {
     lang: "Hindi",
-    flag: "IN",
+    flag: "in",
   },
   {
     lang: "Spanish",
-    flag: "ES",
+    flag: "es",
   },
   {
     lang: "Chinese",
-    flag: "CN",
+    flag: "cn",
   },
   
 ];
@@ -32,7 +33,7 @@ export default function Features(props: any) {
             </h1>
             <p className="md:text-xl text-base  text-white/70">
               Experience the Magic! Easily Transform Your Videos into 20+
-              Languages with Just a Few Clips."
+              Languages with Just a Few Clips.
             </p>
           </div>
           <div className="relative flex justify-center md:justify-start ">
@@ -45,11 +46,9 @@ export default function Features(props: any) {
           <div className="flex flex-wrap gap-5">
             {languageButton.map((item, index) => {
               return (
-                <button className="p-2 flex-1 ease-in-out duration-300 max-w-full bg-white/10 hover:bg-white hover:text-dark rounded backdrop-blur-2xl justify-center items-center gap-1.5 inline-flex text-white text-sm font-normal ">
-                  <div className="overlow-hidden w-8 rounded-full">
-                    <img
-                      src={`https://www.countryflagicons.com/FLAT/32/${item.flag}.png`}
-                    />
+                <button key={index} className="p-2 flex-1 ease-in-out duration-300 max-w-full bg-white/10 hover:bg-white hover:text-dark rounded backdrop-blur-2xl justify-center items-center gap-1.5 inline-flex text-white text-sm font-normal ">
+                  <div className="overlow-hidden w-8 rounded-full">                   
+                  <span className={`flag-icon trxt-xl flag-icon-${item.flag}`}></span>
                   </div>
                   <span>{item.lang}</span>
                 </button>

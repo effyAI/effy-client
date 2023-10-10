@@ -124,7 +124,7 @@ export default function Webdevelopment(props: any) {
               <div className="space-y-7 sm:space-y-10 xl:space-y-14 relative w-full">
                 <div className="flex flex-col justify-center text-center px-4">
                   <h2 className="py-2 text-white xl:text-4xl 2xl:text-5xl text-3xl font-bold xl:leading-snug ">
-                    Our AI-Image Genrate Services
+                  Our AI-Image Genrate Services
                   </h2>
                 </div>
                 <AIImageServices />

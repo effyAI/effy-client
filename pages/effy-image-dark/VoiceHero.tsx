@@ -13,13 +13,10 @@ export default function VoiceHero(props: any) {
         <div className="w-full space-y-5 lg:space-y-10 max-w-6xl mx-auto">
           <div className="space-y-5 text-center ">
             <h1 className="text-4xl xl:text-5xl   font-bold text-white tracking-wider ">
-              EffyAI powered text to voice generator
+            Create Stunning Ai Image with EffyAi
             </h1>
             <p className="text-lg  text-white/70">
-              Generate realistic Text to Speech (TTS) audio using our online AI
-              Voice Generator and the best synthetic voices. Instantly convert
-              text in to natural-sounding speech and download as MP3 and WAV
-              audio files.
+            Introduction and overview of your AI-based content platform
             </p>
           </div>
           <div className="relative flex justify-center gap-5 flex-wrap ">
