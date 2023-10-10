@@ -163,7 +163,7 @@ export default function DesktopNav(props: any) {
                           </p>
                         </div>
                       </Link>
-                      <div className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300">
+                      <Link href="/ai-dubbing" className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300">
                         <Image
                           src="/images/voice-scanner.png"
                           alt={""}
@@ -176,7 +176,7 @@ export default function DesktopNav(props: any) {
                           Enhance Multilingual Content Delivery
                           </p>
                         </div>
-                      </div>
+                      </Link>
                       <div className="flex items-start space-x-4 cursor-pointer hover:bg-white/5 p-4 rounded-xl ease-in-out duration-300">
                         <Image
                           src="/images/lawyer.png"
