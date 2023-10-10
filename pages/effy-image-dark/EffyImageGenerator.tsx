@@ -39,7 +39,7 @@ export default function EffyImageGenerator(props: any) {
                               />
                             </div>
 
-                            <div className={`col-span-6 lg:col-span-6 md:space-y-5 lg:max-w-md `} >
+                            <div className={`col-span-6 lg:col-span-6 md:space-y-5  `} >
                              
                               <h3 className="text-white xl:text-4xl 2xl:text-[2.6rem] md:text-3xl text-2xl 2xl:leading-snug font-bold text-center md:text-left">
                               Introducing EffyAi Image Generator

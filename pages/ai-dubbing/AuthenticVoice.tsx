@@ -32,7 +32,7 @@ export default function EffyImageGenerator(props: any) {
                               Meet EffyAi Dubbing
                               </h3>
                               <p className="md:text-lg text-white/70 font-light leading-[20px] text-center md:text-left ">
-                              EffyDUB Dubbing can transform your video into over 100 languages and accents, producing voices that sound remarkably human. Whether it's the excitement of sports, the passion of documentaries, or other rich emotions, EffyDUB's dubbing enhances your video content, ensuring it delivers an engaging experience to your global audience."  
+                              EffyDUB Dubbing can transform your video into over 100 languages and accents, producing voices that sound remarkably human. Whether its the excitement of sports, the passion of documentaries, or other rich emotions, EffyDUBs dubbing enhances your video content, ensuring it delivers an engaging experience to your global audience. 
                               </p>
                               
                             </div>
